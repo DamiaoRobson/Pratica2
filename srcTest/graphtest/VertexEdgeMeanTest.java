@@ -62,10 +62,10 @@ public class VertexEdgeMeanTest {
 		DecimalFormat df = new DecimalFormat("0.#");
 		String mean1= df.format(grafo1.getMeanEdge());
 		String mean2 = df.format(grafo2.getMeanEdge());
+		System.out.println(grafo2.getMeanEdge());
 		
-		Assert.assertEquals("2,4", mean1);
-		Assert.assertEquals("2", mean2);
-		
+		Assert.assertEquals("2", mean1);
+		Assert.assertEquals("2,4", mean2);
 	}
 	
 	@Test
@@ -77,9 +77,9 @@ public class VertexEdgeMeanTest {
 	
 	@Test
 	public void getEdgeNumber() throws IOException {
-		Assert.assertEquals(5, grafo6.getVertexNumber());
-		Assert.assertEquals(6, grafo7.getVertexNumber());
-		Assert.assertEquals(4, grafo8.getVertexNumber());
+		Assert.assertEquals(5, grafo6.getEdgeNumber());
+		Assert.assertEquals(6, grafo7.getEdgeNumber());
+		Assert.assertEquals(4, grafo8.getEdgeNumber());
 	}
 
 }

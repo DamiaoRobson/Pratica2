@@ -13,13 +13,6 @@ import graph.p1.GraphImpl;
 import junit.framework.Assert;
 
 public class GetMeanEdgeTest {
-	
-	
-	
-	/*Graph grafo22 = library.readGraph("grafo2.txt");
-	Graph grafo11 = library.readGraph("grafo1.txt");
-	
-	*/
 
 	@Test
 	public void test() {
@@ -38,7 +31,7 @@ public class GetMeanEdgeTest {
 		
 		
 		DecimalFormat df = new DecimalFormat("0.#");
-		String mean1= df.format(grafo1.getMeanEdge());
+		String mean1 = df.format(grafo1.getMeanEdge());
 		String mean2 = df.format(grafo2.getMeanEdge());
 		
 		Assert.assertEquals("2,4", mean1);
