@@ -30,7 +30,7 @@ public class ShortestPathTest {
 	List<Vertex<Integer>> verticesGrafoComArestaNegativa2;
 
 	
-	final String path = "C:\\Users\\Pedro\\Desktop\\pratica2\\graph_txt\\";
+	final String path = "graph_txt/";
 	//(properties -> location)
 	
 	
